@@ -1,31 +1,27 @@
-[core]
-        repositoryformatversion = 0
-        filemode = false
-        bare = false
-        logallrefupdates = true
-        symlinks = false
-        ignorecase = true
-[remote "origin"]
-        url = git@github.com:lichuandi/springboot2021.git
-        fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-        remote = origin
-        merge = refs/heads/master
-修改
-core]
-        repositoryformatversion = 0
-        filemode = false
-        bare = false
-        logallrefupdates = true
-        symlinks = false
-        ignorecase = true
-[remote "origin"]
-        #这个是GitHub仓库地址
-        url = git@github.com:lichuandi/springboot2021.git
-        #这个是gitee仓库地址
-        url = git@gitee.com:digege/springboot2021.git
-        fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-        remote = origin
-        merge = refs/heads/master
+springboot2021
+介绍
+springboot小小的总结
 
+软件架构
+软件架构说明
+
+安装教程
+xxxx
+xxxx
+xxxx
+使用说明
+xxxx
+xxxx
+xxxx
+参与贡献
+Fork 本仓库
+新建 Feat_xxx 分支
+提交代码
+新建 Pull Request
+特技
+使用 Readme_XXX.md 来支持不同的语言，例如 Readme_en.md, Readme_zh.md
+Gitee 官方博客 blog.gitee.com
+你可以 https://gitee.com/explore 这个地址来了解 Gitee 上的优秀开源项目
+GVP 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+Gitee 官方提供的使用手册 https://gitee.com/help
+Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 https://gitee.com/gitee-stars/
