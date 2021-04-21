@@ -1,3 +1,6 @@
+server:
+  port=0911:
+
 spring:
   application:
     name:cloud-payment-service
