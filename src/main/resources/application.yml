@@ -13,6 +13,11 @@ spring:
 # 多个配置环境时候切换
   profiles:
     active: dev
+#配置jpa
+ # jpa:
+   # hibernate:
+   #   ddl-auto: create #第一次建表使用crete，后面用update
+  #  show-sql: true
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
