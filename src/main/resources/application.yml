@@ -27,3 +27,17 @@ my:
   value: ${random.value}
   greeting: hi,I am ${my.name}
 
+#actuator监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      health:
+        show-details: always
+    shutdown:
+        enabled: true
+  server:
+    port: 9001
