@@ -10,6 +10,9 @@ spring:
     url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: Lichuandi0911
+# 多个配置环境时候切换
+  profiles:
+    active: dev
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
@@ -18,3 +21,9 @@ mybatis:
 my:
   name: lichuandi
   age: 30
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi,I am ${my.name}
+
